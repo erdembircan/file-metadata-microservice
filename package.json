@@ -1,0 +1,25 @@
+{
+  "name": "file-metadata-microservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node ./server/index.js",
+    "devStart": "nodemon ./server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/erdembircan/file-metadata-microservice.git"
+  },
+  "author": "Erdem Bircan <erdem.erdembircan@gmail.com> (https://erdembircan.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erdembircan/file-metadata-microservice/issues"
+  },
+  "homepage": "https://github.com/erdembircan/file-metadata-microservice#readme",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "express": "^4.16.2",
+    "multer": "^1.3.0"
+  }
+}
